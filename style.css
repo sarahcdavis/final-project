@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: #ff0099;
+	font-weight: bold;
+}
+
+p {
+	color: black;
+	line-height: 25px;
+}
+
+h2 {
+	color: #ff0099;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	color: #ff0099;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h4 {
+	color: #ff0099;
+	font-size: 20px;
+	font-variant-caps: all-petite-caps;
+	letter-spacing: 5px;
+}
+
+hr {
+	border: 5px dotted #ff0099;
+    border-style: none none dotted; 
+}
+
+.heart {
+	position: sticky;
+    bottom: 0;
+}
+
+.pinktext {
+	color: #ff0099;
+}
+
+.parallax { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 600px;
+}
+
+.parallaxshort { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
